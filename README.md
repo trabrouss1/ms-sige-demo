@@ -63,8 +63,14 @@ Pour cloner le projet très facilement depuis GitHub :
 ```bash
 git clone https://github.com/trabrouss1/ms-sige-demo.git
 cd ms-sige-demo
-
 ```
+## 🔒🖥️ Le lien SSH est : 
+
+```bash 
+git@github.com:trabrouss1/ms-sige-demo.git
+cd ms-sige-demo
+```
+
 ## ▶️ Lancement du projet
 
 Pour démarrer tous les microservices :
