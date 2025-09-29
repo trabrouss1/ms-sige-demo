@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id : r1
+          uri : lb://SCOLARITE-SERVICE
+          predicates:
+            Path=/api/v1/scolarites/**
+        - id : r2
+          uri : lb://INSCRIPTION-SERVICE
+          predicates:
+            Path=/api/v1/inscriptions/**
+        - id : r3
+          uri : lb://ELEVE-SERVICE
+          predicates:
+            Path=/api/v1/eleves/**
+        - id : r4
+          uri : lb://CLASSE-SERVICE
+          predicates:
+            Path=/api/v1/classes/**
