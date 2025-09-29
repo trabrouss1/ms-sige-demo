@@ -38,13 +38,13 @@ Avant de lancer le projet, assurez-vous d’avoir installé :
 
 - Gateway → http://localhost:8888
 
-- classe-service → http://localhost:8083
+- classe-service → http://localhost:8083/api/v1/classes
 
-- eleve-service → http://localhost:8082
+- eleve-service → http://localhost:8082/api/v1/eleves
 
-- inscription-service → http://localhost:8081
+- inscription-service → http://localhost:8081/api/v1/inscriptions
 
-- scolarite-service → http://localhost:8080
+- scolarite-service → http://localhost:8080/api/v1/scolarites
 
 ### 🔹 Accès via Gateway
 
